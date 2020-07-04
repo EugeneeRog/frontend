@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
+  background: gold;
+}
+
+.body {
+  height: 100px;
+  background-color: aqua;
+}
+
+.header {
+  background-color: rgb(204, 0, 255);
+}
+
+.fixed_list {
+  list-style: none;
+}
+
+.header_registration_field {
+  display: grid;
+  grid-template-rows: 2fr;
+}
+
+.registration_listElement {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.date {
+  float: right;
+  margin-right: 10px;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(43, 255, 0);
+}
+
+.float_right {
+  display: block;
+  float: right;
+}
