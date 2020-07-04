@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import logo from './img/logo.jpg';
 
 export interface loginButtons {
   registerButtonName: string
@@ -9,8 +9,8 @@ export interface loginButtons {
 function Header() {
   return (
     <div className="header grid">
-      <div >1</div>
-      <div >2</div>
+      <div ></div>
+      <div ><img src={logo} className="Header-logo" alt="logo" /></div>
       <div >
         <Login loginButtonName="Login" registerButtonName="Register" />
       </div>

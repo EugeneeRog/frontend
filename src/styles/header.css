@@ -1,0 +1,33 @@
+.header {
+  background-color:none;
+  }
+  
+.fixed_list {
+  list-style: none;
+  }
+  
+.header_registration_field {
+  display: grid;
+  grid-template-rows: 2fr;
+  }
+  
+.registration_listElement {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: right;
+  }
+  
+.date {
+  float: right;
+  margin-right: 10px;
+  }
+  
+.float_right {
+  display: block;
+  float: right;
+  }
+
+.Header-logo {
+  width: 1400px;
+  height: 200px;
+}
